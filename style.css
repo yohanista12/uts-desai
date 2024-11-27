@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+profile-photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px; /* Atur lebar gambar sesuai kebutuhan */
+    height: auto; /* Mempertahankan rasio gambar */
+    border-radius: 50%; /* Membuat gambar menjadi bulat */
+}
+
+/* Container umum untuk memusatkan konten */
+.container {
+    width: 80%; /* Atur sesuai kebutuhan */
+    margin: 0 auto; /* Memusatkan konten dalam container */
+    text-align: center; /* Memastikan teks dan gambar berada di tengah */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #c0b26d;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #867c32;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 0;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    profile-photo {
+        width: 150px; /* Atur lebar sesuai kebutuhan */
+        height: auto; /* Mempertahankan rasio aspek */
+        border-radius: 50%; /* Membuat foto menjadi bulat */
+    }
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #9b920f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}

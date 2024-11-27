@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>Portofolio Saya</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">Tentang Saya</a></li>
+                    <li><a href="#projects">Proyek</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Tentang Saya -->
+    <section id="about" class="section">
+        <div class="container">
+
+            <img src="image.jpeg" alt="Foto Profil" class="profile-photo" width="150" height="150">
+            <h2>Tentang Saya</h2>
+        
+            <p>Saya adalah seorang pengembang web yang penuh semangat dan selalu haus akan pengetahuan. 
+                Dengan latar belakang di bidang informasi teknologi, saya telah mengembangkan keterampilan dalam berbagai bahasa pemrograman seperti HTML, CSS, JavaScript, dan Python. Saya percaya bahwa belajar adalah proses yang tidak pernah berakhir,
+                 dan saya selalu mencari cara untuk memperluas wawasan dan keterampilan saya..</p>
+        </div>
+    </section>
+
+    <!-- Proyek -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Proyek Saya</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Proyek 1</h3>
+                    <h2>Taman kreasi siswa</h2>
+                    <P>Proyek ini bertujuan untuk menciptakan ruang terbuka hijau di 
+                        sekolah yang dapat digunakan oleh siswa untuk belajar dan berinteraksi dengan alam.</P>
+                </div>
+                <div class="project-card">
+                    <h3>Proyek 2</h3>
+                    <h2>Website Portofolio Pribadi.</h2>
+                    <P>Portofolio website pribadi ini
+                        akan menampilkan karya-karya terbaik saya sebagai seorang pengembang web</P>
+                </div>
+                <div class="project-card">
+                    <h3>Proyek 3</h3>
+                    <h2>E-Commerce Sederhana.</h2>
+                    <P> pembuatan situs e-commerce sederhana yang memungkinkan 
+                        pengguna menjelajahi produk, menambahkannya ke keranjang belanja, dan melakukan checkout</P>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontak -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Kontak</h2>
+            <form id="contact-form" action="#" method="POST"> <!-- Tambahkan action dan method -->
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required placeholder="Masukkan nama Anda">
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Masukkan email Anda">
+    
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" required placeholder="Tulis pesan Anda di sini..."></textarea>
+    
+                <button type="submit">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Portofolio Saya</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
